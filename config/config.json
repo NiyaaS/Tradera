@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "blocket-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/blocket/BlocketWebPart.js",
+          "manifest": "./src/webparts/blocket/BlocketWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BlocketWebPartStrings": "lib/webparts/blocket/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
